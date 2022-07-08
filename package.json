@@ -2,10 +2,7 @@
   "name": "todolist-v1",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
-  "engines": {
-    "node": "16.15.1"
-  },
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,6 +10,9 @@
   },
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": "16.15.1"
+  },
   "dependencies": {
     "body-parser": "^1.20.0",
     "ejs": "^3.1.8",
